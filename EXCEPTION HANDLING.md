@@ -23,12 +23,20 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
-
+def digit():
+try:
+a=int(input())
+if(a%2==0):
+print("You entered even number")
+else:
+print("An odd number")
+except:
+print("Enter only number")
+digit()
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/a386bcb5-1d0b-4885-8a96-8c55ef5b59c7)
 
 ### RESULT
+Thus,the program for the solution of value error in exception handling and check whether the number is even or odd was implemented and executed successfully.
